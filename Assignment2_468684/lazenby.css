@@ -1,0 +1,63 @@
+/* THIS lazenby page is used for setting the backround image*/
+.lazenbyPage,.loginPage
+{
+    
+    position: absolute;
+    
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: url(Images/restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+    
+}
+.row {
+    
+    background-size: auto;
+    display: flex;
+    max-height: 600px;
+}
+#body{
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.column {
+    margin: 0px 10px 0px 10px;
+    height: auto;
+    flex: 33.33%;
+   
+    border:2px solid black;
+    text-align: center;
+    font-size: 30px;
+    
+}
+h2{
+    text-align: center;
+    font-size:25px;
+    color: aliceblue;
+    
+}
+.openinghoursrow{
+    display: flex;
+}
+.openinghourscolumn{
+    width:33.33%;
+    text-align: center;
+}
+#openinghourscolumn1{
+    flex:33.33%;
+    padding:5px;
+    font-weight:bold;
+    font-size:30px;
+}
+#openinghourscolumn2{
+   
+    font-size:20px;
+}
